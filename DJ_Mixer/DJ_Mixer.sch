@@ -1,0 +1,888 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5F811B68
+P 3150 2500
+F 0 "#PWR?" H 3150 2250 50  0001 C CNN
+F 1 "GND" H 3155 2327 50  0000 C CNN
+F 2 "" H 3150 2500 50  0001 C CNN
+F 3 "" H 3150 2500 50  0001 C CNN
+	1    3150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_C C3
+U 1 1 5F81247E
+P 3150 2350
+F 0 "C3" H 3265 2396 50  0000 L CNN
+F 1 "100uF" H 3265 2305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3150 2150 50  0001 C CNN
+F 3 "" H 3150 2350 50  0001 C CNN
+	1    3150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F81449D
+P 3000 1050
+F 0 "#PWR?" H 3000 900 50  0001 C CNN
+F 1 "VCC" H 3015 1223 50  0000 C CNN
+F 2 "" H 3000 1050 50  0001 C CNN
+F 3 "" H 3000 1050 50  0001 C CNN
+	1    3000 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1050 3000 1650
+$Comp
+L enel200_uc_kicad5:UC_C C2
+U 1 1 5F815154
+P 3200 1200
+F 0 "C2" H 3315 1246 50  0000 L CNN
+F 1 "100uF" H 3315 1155 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3200 1000 50  0001 C CNN
+F 3 "" H 3200 1200 50  0001 C CNN
+	1    3200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F815788
+P 3200 1350
+F 0 "#PWR?" H 3200 1100 50  0001 C CNN
+F 1 "GND" H 3205 1177 50  0000 C CNN
+F 2 "" H 3200 1350 50  0001 C CNN
+F 3 "" H 3200 1350 50  0001 C CNN
+	1    3200 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1050 3200 1050
+Connection ~ 3000 1050
+$Comp
+L enel200_uc_kicad5:UC_C C4
+U 1 1 5F815EEF
+P 3800 2250
+F 0 "C4" H 3915 2296 50  0000 L CNN
+F 1 "UC_C" H 3915 2205 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3800 2050 50  0001 C CNN
+F 3 "" H 3800 2250 50  0001 C CNN
+	1    3800 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1950 3800 2100
+$Comp
+L enel200_uc_kicad5:UC_C C5
+U 1 1 5F816FDB
+P 4100 1950
+F 0 "C5" V 4352 1950 50  0000 C CNN
+F 1 "1000uF" V 4261 1950 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 4100 1750 50  0001 C CNN
+F 3 "" H 4100 1950 50  0001 C CNN
+	1    4100 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_Speaker LS?
+U 1 1 5F8177A9
+P 4700 1950
+F 0 "LS?" H 4870 1946 50  0000 L CNN
+F 1 "UC_Speaker" H 4870 1855 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4700 1750 50  0001 C CNN
+F 3 "" H 4690 1900 50  0001 C CNN
+	1    4700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F818565
+P 4500 2500
+F 0 "#PWR?" H 4500 2250 50  0001 C CNN
+F 1 "GND" H 4505 2327 50  0000 C CNN
+F 2 "" H 4500 2500 50  0001 C CNN
+F 3 "" H 4500 2500 50  0001 C CNN
+	1    4500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1950 4500 1950
+$Comp
+L enel200_uc_kicad5:UC_C C1
+U 1 1 5F818B98
+P 2500 1850
+F 0 "C1" V 2248 1850 50  0000 C CNN
+F 1 "0.1pF" V 2339 1850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 2500 1650 50  0001 C CNN
+F 3 "" H 2500 1850 50  0001 C CNN
+	1    2500 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F819619
+P 3800 2500
+F 0 "#PWR?" H 3800 2250 50  0001 C CNN
+F 1 "GND" H 3805 2327 50  0000 C CNN
+F 2 "" H 3800 2500 50  0001 C CNN
+F 3 "" H 3800 2500 50  0001 C CNN
+	1    3800 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2400 3800 2500
+$Comp
+L Device:R_POT_US RV?
+U 1 1 5F81A22E
+P 2200 1850
+F 0 "RV?" H 2133 1896 50  0000 R CNN
+F 1 "R_POT_US" H 2133 1805 50  0000 R CNN
+F 2 "" H 2200 1850 50  0001 C CNN
+F 3 "~" H 2200 1850 50  0001 C CNN
+	1    2200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F81B6A2
+P 2200 2000
+F 0 "#PWR?" H 2200 1750 50  0001 C CNN
+F 1 "GND" H 2205 1827 50  0000 C CNN
+F 2 "" H 2200 2000 50  0001 C CNN
+F 3 "" H 2200 2000 50  0001 C CNN
+	1    2200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2050 4500 2500
+$Comp
+L power:GND #PWR?
+U 1 1 5F81D190
+P 3000 2500
+F 0 "#PWR?" H 3000 2250 50  0001 C CNN
+F 1 "GND" H 3005 2327 50  0000 C CNN
+F 2 "" H 3000 2500 50  0001 C CNN
+F 3 "" H 3000 2500 50  0001 C CNN
+	1    3000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F81D54F
+P 2800 2500
+F 0 "#PWR?" H 2800 2250 50  0001 C CNN
+F 1 "GND" H 2805 2327 50  0000 C CNN
+F 2 "" H 2800 2500 50  0001 C CNN
+F 3 "" H 2800 2500 50  0001 C CNN
+	1    2800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_LM386 U1
+U 1 1 5F80F74F
+P 3100 1950
+F 0 "U1" H 3300 1850 50  0000 L CNN
+F 1 "UC_LM386" H 3300 1750 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 3100 1600 50  0001 C CNN
+F 3 "" H 3300 2150 50  0001 C CNN
+	1    3100 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2050 2800 2500
+Wire Wire Line
+	3000 2250 3000 2500
+Wire Wire Line
+	2200 1700 2200 1300
+Wire Wire Line
+	2200 1300 1850 1300
+Text GLabel 1850 1300 0    50   Input ~ 0
+ArduinoPin9
+Wire Wire Line
+	3400 1950 3800 1950
+Connection ~ 3800 1950
+Wire Wire Line
+	3800 1950 3950 1950
+Wire Wire Line
+	2800 1850 2650 1850
+Wire Notes Line
+	1100 2950 1100 700 
+Text Notes 1150 800  0    50   ~ 0
+Audio Amplifier
+$Comp
+L enel200_uc_kicad5:UC_R R1
+U 1 1 5F829985
+P 2600 3950
+F 0 "R1" H 2671 3988 50  0000 L CNN
+F 1 "1k" H 2671 3904 40  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2600 3700 60  0001 C CNN
+F 3 "" H 2600 3950 60  0000 C CNN
+	1    2600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_R R2
+U 1 1 5F82A0A1
+P 2600 4300
+F 0 "R2" H 2671 4338 50  0000 L CNN
+F 1 "1k" H 2671 4254 40  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2600 4050 60  0001 C CNN
+F 3 "" H 2600 4300 60  0000 C CNN
+	1    2600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_R R3
+U 1 1 5F82A317
+P 2600 4700
+F 0 "R3" H 2671 4738 50  0000 L CNN
+F 1 "1k" H 2671 4654 40  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2600 4450 60  0001 C CNN
+F 3 "" H 2600 4700 60  0000 C CNN
+	1    2600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_R R4
+U 1 1 5F82A785
+P 2600 5100
+F 0 "R4" H 2671 5138 50  0000 L CNN
+F 1 "1k" H 2671 5054 40  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2600 4850 60  0001 C CNN
+F 3 "" H 2600 5100 60  0000 C CNN
+	1    2600 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3800 2600 3500
+Wire Wire Line
+	2600 3500 2950 3500
+Wire Wire Line
+	2600 4100 2950 4100
+Connection ~ 2600 4100
+Wire Wire Line
+	2600 4100 2400 4100
+Wire Wire Line
+	2600 4500 2400 4500
+Wire Wire Line
+	2600 4900 2400 4900
+Wire Wire Line
+	2600 5300 2400 5300
+$Comp
+L enel200_uc_kicad5:UC_R R5
+U 1 1 5F82C86A
+P 2600 5500
+F 0 "R5" H 2671 5538 50  0000 L CNN
+F 1 "1k" H 2671 5454 40  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2600 5250 60  0001 C CNN
+F 3 "" H 2600 5500 60  0000 C CNN
+	1    2600 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5700 2400 5700
+$Comp
+L enel200_uc_kicad5:UC_SW_Push SW1
+U 1 1 5F82D21F
+P 2200 4100
+F 0 "SW1" H 2200 4385 50  0000 C CNN
+F 1 "UC_SW_Push" H 2200 4294 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 2200 4100 50  0001 C CNN
+F 3 "" H 2200 4300 50  0001 C CNN
+	1    2200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_SW_Push SW2
+U 1 1 5F82E184
+P 2200 4500
+F 0 "SW2" H 2200 4785 50  0000 C CNN
+F 1 "UC_SW_Push" H 2200 4694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 2200 4500 50  0001 C CNN
+F 3 "" H 2200 4700 50  0001 C CNN
+	1    2200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_SW_Push SW3
+U 1 1 5F82E9C1
+P 2200 4900
+F 0 "SW3" H 2200 5185 50  0000 C CNN
+F 1 "UC_SW_Push" H 2200 5094 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 2200 4900 50  0001 C CNN
+F 3 "" H 2200 5100 50  0001 C CNN
+	1    2200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_SW_Push SW4
+U 1 1 5F82EF5B
+P 2200 5300
+F 0 "SW4" H 2200 5585 50  0000 C CNN
+F 1 "UC_SW_Push" H 2200 5494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 2200 5300 50  0001 C CNN
+F 3 "" H 2200 5500 50  0001 C CNN
+	1    2200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_SW_Push SW5
+U 1 1 5F82F66F
+P 2200 5700
+F 0 "SW5" H 2200 5985 50  0000 C CNN
+F 1 "UC_SW_Push" H 2200 5894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 2200 5700 50  0001 C CNN
+F 3 "" H 2200 5900 50  0001 C CNN
+	1    2200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_SW_Push SW6
+U 1 1 5F830D55
+P 2200 6100
+F 0 "SW6" H 2200 6385 50  0000 C CNN
+F 1 "UC_SW_Push" H 2200 6294 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 2200 6100 50  0001 C CNN
+F 3 "" H 2200 6300 50  0001 C CNN
+	1    2200 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6100 2600 6100
+$Comp
+L enel200_uc_kicad5:UC_R R6
+U 1 1 5F83CD5E
+P 2600 5900
+F 0 "R6" H 2671 5938 50  0000 L CNN
+F 1 "1k" H 2671 5854 40  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2600 5650 60  0001 C CNN
+F 3 "" H 2600 5900 60  0000 C CNN
+	1    2600 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4150 2600 4100
+Wire Wire Line
+	2600 4450 2600 4500
+Connection ~ 2600 4500
+Wire Wire Line
+	2600 4500 2600 4550
+Wire Wire Line
+	2600 4850 2600 4900
+Connection ~ 2600 4900
+Wire Wire Line
+	2600 4900 2600 4950
+Wire Wire Line
+	2600 5250 2600 5300
+Connection ~ 2600 5300
+Wire Wire Line
+	2600 5300 2600 5350
+Wire Wire Line
+	2600 5650 2600 5700
+Connection ~ 2600 5700
+Wire Wire Line
+	2600 5700 2600 5750
+Wire Wire Line
+	2600 6050 2600 6100
+Wire Wire Line
+	2000 4100 1900 4100
+Wire Wire Line
+	1900 4100 1900 4500
+Wire Wire Line
+	1900 4500 2000 4500
+Wire Wire Line
+	1900 4500 1900 4900
+Wire Wire Line
+	1900 4900 2000 4900
+Connection ~ 1900 4500
+Wire Wire Line
+	1900 4900 1900 5300
+Wire Wire Line
+	1900 6100 2000 6100
+Connection ~ 1900 4900
+Wire Wire Line
+	2000 5700 1900 5700
+Connection ~ 1900 5700
+Wire Wire Line
+	1900 5700 1900 6100
+Wire Wire Line
+	2000 5300 1900 5300
+Connection ~ 1900 5300
+Wire Wire Line
+	1900 5300 1900 5700
+$Comp
+L power:GND #PWR?
+U 1 1 5F84280A
+P 1900 6100
+F 0 "#PWR?" H 1900 5850 50  0001 C CNN
+F 1 "GND" H 1905 5927 50  0000 C CNN
+F 2 "" H 1900 6100 50  0001 C CNN
+F 3 "" H 1900 6100 50  0001 C CNN
+	1    1900 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1900 6100
+Text GLabel 2950 4100 2    50   Input ~ 0
+ArduinoPinA1
+$Comp
+L power:+5V #PWR?
+U 1 1 5F843181
+P 2950 3500
+F 0 "#PWR?" H 2950 3350 50  0001 C CNN
+F 1 "+5V" H 2965 3673 50  0000 C CNN
+F 2 "" H 2950 3500 50  0001 C CNN
+F 3 "" H 2950 3500 50  0001 C CNN
+	1    2950 3500
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	1100 3100 1100 6350
+Wire Notes Line
+	1100 6350 3550 6350
+Wire Notes Line
+	3550 6350 3550 3100
+Wire Notes Line
+	3550 3100 1100 3100
+Text Notes 1150 3200 0    50   ~ 0
+Multiplexing Buttons
+Text GLabel 1750 3500 0    50   Input ~ 0
+ArduinoGND
+Wire Wire Line
+	1900 3500 1750 3500
+Connection ~ 1900 4100
+Wire Wire Line
+	1900 4100 1900 3500
+$Comp
+L enel200_uc_kicad5:UC_R R1
+U 1 1 5F84DD9D
+P 4550 3800
+F 0 "R1" H 4479 3762 50  0000 R CNN
+F 1 "1k" H 4479 3846 40  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4550 3550 60  0001 C CNN
+F 3 "" H 4550 3800 60  0000 C CNN
+	1    4550 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_SW_Push SW1
+U 1 1 5F84DDA8
+P 4150 3950
+F 0 "SW1" H 4150 4235 50  0000 C CNN
+F 1 "UC_SW_Push" H 4150 4144 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4150 3950 50  0001 C CNN
+F 3 "" H 4150 4150 50  0001 C CNN
+	1    4150 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 3950 2    50   Input ~ 0
+ArduinoPin7
+$Comp
+L power:+5V #PWR?
+U 1 1 5F84DDB2
+P 4550 3650
+F 0 "#PWR?" H 4550 3500 50  0001 C CNN
+F 1 "+5V" H 4565 3823 50  0000 C CNN
+F 2 "" H 4550 3650 50  0001 C CNN
+F 3 "" H 4550 3650 50  0001 C CNN
+	1    4550 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3950 4550 3950
+Connection ~ 4550 3950
+Wire Wire Line
+	4550 3950 4800 3950
+$Comp
+L power:GND #PWR?
+U 1 1 5F85CA35
+P 3950 4000
+F 0 "#PWR?" H 3950 3750 50  0001 C CNN
+F 1 "GND" H 3955 3827 50  0000 C CNN
+F 2 "" H 3950 4000 50  0001 C CNN
+F 3 "" H 3950 4000 50  0001 C CNN
+	1    3950 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3950 3950 4000
+$Comp
+L enel200_uc_kicad5:UC_R R2
+U 1 1 5F8602CA
+P 4550 4400
+F 0 "R2" H 4479 4362 50  0000 R CNN
+F 1 "1k" H 4479 4446 40  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4550 4150 60  0001 C CNN
+F 3 "" H 4550 4400 60  0000 C CNN
+	1    4550 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_SW_Push SW2
+U 1 1 5F8602D0
+P 4150 4550
+F 0 "SW2" H 4150 4835 50  0000 C CNN
+F 1 "UC_SW_Push" H 4150 4744 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4150 4550 50  0001 C CNN
+F 3 "" H 4150 4750 50  0001 C CNN
+	1    4150 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 4550 2    50   Input ~ 0
+ArduinoPin6
+$Comp
+L power:+5V #PWR?
+U 1 1 5F8602D7
+P 4550 4250
+F 0 "#PWR?" H 4550 4100 50  0001 C CNN
+F 1 "+5V" H 4565 4423 50  0000 C CNN
+F 2 "" H 4550 4250 50  0001 C CNN
+F 3 "" H 4550 4250 50  0001 C CNN
+	1    4550 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4550 4550 4550
+Connection ~ 4550 4550
+Wire Wire Line
+	4550 4550 4800 4550
+$Comp
+L power:GND #PWR?
+U 1 1 5F8602E0
+P 3950 4600
+F 0 "#PWR?" H 3950 4350 50  0001 C CNN
+F 1 "GND" H 3955 4427 50  0000 C CNN
+F 2 "" H 3950 4600 50  0001 C CNN
+F 3 "" H 3950 4600 50  0001 C CNN
+	1    3950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4550 3950 4600
+$Comp
+L enel200_uc_kicad5:UC_R R3
+U 1 1 5F861A5B
+P 4550 5050
+F 0 "R3" H 4479 5012 50  0000 R CNN
+F 1 "1k" H 4479 5096 40  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4550 4800 60  0001 C CNN
+F 3 "" H 4550 5050 60  0000 C CNN
+	1    4550 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_SW_Push SW3
+U 1 1 5F861A61
+P 4150 5200
+F 0 "SW3" H 4150 5485 50  0000 C CNN
+F 1 "UC_SW_Push" H 4150 5394 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4150 5200 50  0001 C CNN
+F 3 "" H 4150 5400 50  0001 C CNN
+	1    4150 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 5200 2    50   Input ~ 0
+ArduinoPin5
+$Comp
+L power:+5V #PWR?
+U 1 1 5F861A68
+P 4550 4900
+F 0 "#PWR?" H 4550 4750 50  0001 C CNN
+F 1 "+5V" H 4565 5073 50  0000 C CNN
+F 2 "" H 4550 4900 50  0001 C CNN
+F 3 "" H 4550 4900 50  0001 C CNN
+	1    4550 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5200 4550 5200
+Connection ~ 4550 5200
+Wire Wire Line
+	4550 5200 4800 5200
+$Comp
+L power:GND #PWR?
+U 1 1 5F861A71
+P 3950 5250
+F 0 "#PWR?" H 3950 5000 50  0001 C CNN
+F 1 "GND" H 3955 5077 50  0000 C CNN
+F 2 "" H 3950 5250 50  0001 C CNN
+F 3 "" H 3950 5250 50  0001 C CNN
+	1    3950 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5200 3950 5250
+$Comp
+L enel200_uc_kicad5:UC_R R4
+U 1 1 5F86357E
+P 4550 5700
+F 0 "R4" H 4479 5662 50  0000 R CNN
+F 1 "1k" H 4479 5746 40  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4550 5450 60  0001 C CNN
+F 3 "" H 4550 5700 60  0000 C CNN
+	1    4550 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_SW_Push SW4
+U 1 1 5F863584
+P 4150 5850
+F 0 "SW4" H 4150 6135 50  0000 C CNN
+F 1 "UC_SW_Push" H 4150 6044 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4150 5850 50  0001 C CNN
+F 3 "" H 4150 6050 50  0001 C CNN
+	1    4150 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 5850 2    50   Input ~ 0
+ArduinoPin4
+$Comp
+L power:+5V #PWR?
+U 1 1 5F86358B
+P 4550 5550
+F 0 "#PWR?" H 4550 5400 50  0001 C CNN
+F 1 "+5V" H 4565 5723 50  0000 C CNN
+F 2 "" H 4550 5550 50  0001 C CNN
+F 3 "" H 4550 5550 50  0001 C CNN
+	1    4550 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5850 4550 5850
+Connection ~ 4550 5850
+Wire Wire Line
+	4550 5850 4800 5850
+$Comp
+L power:GND #PWR?
+U 1 1 5F863594
+P 3950 5900
+F 0 "#PWR?" H 3950 5650 50  0001 C CNN
+F 1 "GND" H 3955 5727 50  0000 C CNN
+F 2 "" H 3950 5900 50  0001 C CNN
+F 3 "" H 3950 5900 50  0001 C CNN
+	1    3950 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5850 3950 5900
+Wire Notes Line
+	3650 3100 5500 3100
+Wire Notes Line
+	5500 3100 5500 6350
+Wire Notes Line
+	5500 6350 3650 6350
+Wire Notes Line
+	3650 6350 3650 3100
+Text Notes 3700 3200 0    50   ~ 0
+Independent Buttons
+Wire Notes Line
+	5500 2950 5500 700 
+Wire Notes Line
+	1100 700  5500 700 
+Wire Notes Line
+	1100 2950 5500 2950
+$Comp
+L enel200_uc_kicad5:UC_R R1
+U 1 1 5F872F29
+P 6750 1300
+F 0 "R1" H 6821 1338 50  0000 L CNN
+F 1 "4k7" H 6821 1254 40  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6750 1050 60  0001 C CNN
+F 3 "" H 6750 1300 60  0000 C CNN
+	1    6750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_R R2
+U 1 1 5F873462
+P 6750 1600
+F 0 "R2" H 6821 1638 50  0000 L CNN
+F 1 "10k" H 6821 1554 40  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6750 1350 60  0001 C CNN
+F 3 "" H 6750 1600 60  0000 C CNN
+	1    6750 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_R R3
+U 1 1 5F874287
+P 6750 2250
+F 0 "R3" H 6821 2288 50  0000 L CNN
+F 1 "4k7" H 6821 2204 40  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6750 2000 60  0001 C CNN
+F 3 "" H 6750 2250 60  0000 C CNN
+	1    6750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_R R4
+U 1 1 5F875115
+P 6750 2550
+F 0 "R4" H 6821 2588 50  0000 L CNN
+F 1 "10k" H 6821 2504 40  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6750 2300 60  0001 C CNN
+F 3 "" H 6750 2550 60  0000 C CNN
+	1    6750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_R R5
+U 1 1 5F875F10
+P 6750 3200
+F 0 "R5" H 6821 3238 50  0000 L CNN
+F 1 "4k7" H 6821 3154 40  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6750 2950 60  0001 C CNN
+F 3 "" H 6750 3200 60  0000 C CNN
+	1    6750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L enel200_uc_kicad5:UC_R R6
+U 1 1 5F876E85
+P 6750 3500
+F 0 "R6" H 6821 3538 50  0000 L CNN
+F 1 "10k" H 6821 3454 40  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6750 3250 60  0001 C CNN
+F 3 "" H 6750 3500 60  0000 C CNN
+	1    6750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F87F6B3
+P 6750 2700
+F 0 "#PWR?" H 6750 2450 50  0001 C CNN
+F 1 "GND" H 6755 2527 50  0000 C CNN
+F 2 "" H 6750 2700 50  0001 C CNN
+F 3 "" H 6750 2700 50  0001 C CNN
+	1    6750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F87FFC8
+P 6750 1750
+F 0 "#PWR?" H 6750 1500 50  0001 C CNN
+F 1 "GND" H 6755 1577 50  0000 C CNN
+F 2 "" H 6750 1750 50  0001 C CNN
+F 3 "" H 6750 1750 50  0001 C CNN
+	1    6750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8822F0
+P 6750 3650
+F 0 "#PWR?" H 6750 3400 50  0001 C CNN
+F 1 "GND" H 6755 3477 50  0000 C CNN
+F 2 "" H 6750 3650 50  0001 C CNN
+F 3 "" H 6750 3650 50  0001 C CNN
+	1    6750 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1150 6500 1150
+Wire Wire Line
+	6750 2100 6500 2100
+Wire Wire Line
+	6750 3050 6500 3050
+Connection ~ 6750 2400
+Connection ~ 6750 3350
+$Comp
+L Connector:SD_Card J?
+U 1 1 5F88DCA8
+P 8800 2400
+F 0 "J?" H 8800 3065 50  0000 C CNN
+F 1 "SD_Card" H 8800 2974 50  0000 C CNN
+F 2 "" H 8800 2400 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 8800 2400 50  0001 C CNN
+	1    8800 2400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9700 2200
+NoConn ~ 9700 2300
+NoConn ~ 9700 2500
+NoConn ~ 9700 2600
+NoConn ~ 7900 2000
+Wire Wire Line
+	7900 2200 7500 2200
+Wire Wire Line
+	7500 2200 7500 2400
+Wire Wire Line
+	6750 2400 7500 2400
+Wire Wire Line
+	7500 2100 7500 1450
+Wire Wire Line
+	7500 1450 6750 1450
+Connection ~ 6750 1450
+Wire Wire Line
+	7500 2100 7900 2100
+Wire Wire Line
+	7600 2300 7600 2600
+Connection ~ 7600 2600
+Wire Wire Line
+	7600 2600 7600 3750
+Wire Wire Line
+	7600 2300 7900 2300
+Wire Wire Line
+	7600 2600 7900 2600
+Wire Wire Line
+	7900 2400 7750 2400
+Wire Wire Line
+	7750 2400 7750 1450
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F8AFC81
+P 7750 1450
+F 0 "#PWR?" H 7750 1300 50  0001 C CNN
+F 1 "+3.3V" H 7765 1623 50  0000 C CNN
+F 2 "" H 7750 1450 50  0001 C CNN
+F 3 "" H 7750 1450 50  0001 C CNN
+	1    7750 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2500 7500 2500
+Wire Wire Line
+	7500 2500 7500 3350
+Wire Wire Line
+	6750 3350 7500 3350
+Wire Wire Line
+	7900 2700 7750 2700
+Wire Wire Line
+	7750 2700 7750 4000
+Wire Wire Line
+	7750 4000 6500 4000
+NoConn ~ 7900 2800
+Text GLabel 6500 3050 0    50   Input ~ 0
+Pin_13_SCK
+Text GLabel 6500 2100 0    50   Input ~ 0
+Pin_11_MOSI
+Text GLabel 6500 1150 0    50   Input ~ 0
+Pin_10_SS
+Text GLabel 6500 4000 0    50   Input ~ 0
+Pin_12_MISO
+Wire Notes Line
+	5850 800  5850 4400
+Wire Notes Line
+	5850 4400 9900 4400
+Wire Notes Line
+	9900 4400 9900 800 
+Wire Notes Line
+	9900 800  5850 800 
+Text Notes 5900 900  0    50   ~ 0
+SD Card Shield for Arduino
+$EndSCHEMATC

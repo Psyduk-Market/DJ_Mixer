@@ -1,0 +1,25 @@
+https://www.youtube.com/watch?v=xOXF10qXg7Q
+
+https://www.instructables.com/id/Play-Music-With-Arduino/
+
+https://maker.pro/arduino/projects/arduino-audio-player
+
+https://www.arduino.cc/en/reference/SPI
+
+https://tronixstuff.com/2011/05/13/tutorial-arduino-and-the-spi-bus/
+
+https://www.aliexpress.com/item/32346771288.html?src=google&albch=shopping&acnt=494-037-6276&isdl=y&slnk=&plac=&mtctp=&albbt=Gploogle_7_shopping&aff_atform=google&aff_short_key=UneMJZVf&&albagn=888888&albcp=9444695485&albag=99457316601&trgt=296904914040&crea=en32346771288&netw=u&device=c&albpg=296904914040&albpd=en32346771288&gclid=Cj0KCQjwqrb7BRDlARIsACwGad6TV5YHE16GkNpA_Jrl5afvGu3vUfCsisxt1VMq9vYylUDZi4YD31waAoBnEALw_wcB&gclsrc=aw.ds
+
+https://nathan.chantrell.net/20111128/diy-micro-sd-shield-for-arduino/
+
+https://create.arduino.cc/projecthub/skyline/diy-song-player-with-arduino-uno-503fc1
+
+convert any music file to .wav
+https://www.online-convert.com/result/a78ec248-2085-47e2-98ed-ac2d3a9244ee
+https://audio.online-convert.com/convert-to-wav
+
+volume knob
+https://forum.arduino.cc/index.php?topic=577302.0
+
+simple music (how to use speaker with Arduino)
+https://www.arduino.cc/en/Tutorial/SimpleAudioPlayer
